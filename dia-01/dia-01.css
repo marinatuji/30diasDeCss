@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100vw;
+  height: 100vh;
+}
+
+.icon-list {
+  list-style: none;
+  background-color: #e3f4fd;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 120px;
+  width: 100%;
+  font-size: large;
+}
+
+.icon-list li {
+  color: #0e76a8;
+  padding: 30px;
+  position: relative;
+  -ms-transform: skew(35deg, -30deg); /* IE 9 */
+  transform: skew(35deg, -30deg);
+}
+
+.icon-list li .layer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  transition: 0.6s;
+}
+
+.icon-list li .layer:hover {
+  box-shadow: 0 0 0.9em #33ffff;
+  cursor: pointer;
+}
+
+ul li:hover .layer:nth-child(5) {
+  transform: translate(24px, -24px);
+  opacity: 1;
+}
+
+ul li:hover .layer:nth-child(4) {
+  transform: translate(18px, -18px);
+  background-color: #0e76a8;
+  opacity: 0.8;
+}
+
+ul li:hover .layer:nth-child(3) {
+  transform: translate(12px, -12px);
+  background-color: #0e76a8;
+  opacity: 0.6;
+}
+
+ul li:hover .layer:nth-child(2) {
+  transform: translate(6px, -6px);
+  background-color: #0e76a8;
+  opacity: 0.4;
+}
+
+ul li:hover .layer:nth-child(1) {
+  transform: translate(0, 0);
+  background-color: #0e76a8;
+  opacity: 0.2;
+}
