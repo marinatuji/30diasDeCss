@@ -42,30 +42,30 @@ body {
   cursor: pointer;
 }
 
-ul li:hover .layer:nth-child(5) {
+.icon-list li:hover .layer:nth-child(5) {
   transform: translate(24px, -24px);
   opacity: 1;
 }
 
-ul li:hover .layer:nth-child(4) {
+.icon-list li:hover .layer:nth-child(4) {
   transform: translate(18px, -18px);
   background-color: #0e76a8;
   opacity: 0.8;
 }
 
-ul li:hover .layer:nth-child(3) {
+.icon-list li:hover .layer:nth-child(3) {
   transform: translate(12px, -12px);
   background-color: #0e76a8;
   opacity: 0.6;
 }
 
-ul li:hover .layer:nth-child(2) {
+.icon-list li:hover .layer:nth-child(2) {
   transform: translate(6px, -6px);
   background-color: #0e76a8;
   opacity: 0.4;
 }
 
-ul li:hover .layer:nth-child(1) {
+.icon-list li:hover .layer:nth-child(1) {
   transform: translate(0, 0);
   background-color: #0e76a8;
   opacity: 0.2;
